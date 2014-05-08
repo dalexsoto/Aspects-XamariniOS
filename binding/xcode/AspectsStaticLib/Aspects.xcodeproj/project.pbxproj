@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAA52A8819190B70004681BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA52A8719190B70004681BB /* Foundation.framework */; };
+		FAA52A8D19190B70004681BB /* Aspects.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FAA52A8C19190B70004681BB /* Aspects.h */; };
+		FAA52A8F19190B70004681BB /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA52A8E19190B70004681BB /* Aspects.m */; };
+		FAA52A9619190B70004681BB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA52A9519190B70004681BB /* XCTest.framework */; };
+		FAA52A9719190B70004681BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA52A8719190B70004681BB /* Foundation.framework */; };
+		FAA52A9919190B70004681BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA52A9819190B70004681BB /* UIKit.framework */; };
+		FAA52A9C19190B70004681BB /* libAspects.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA52A8419190B70004681BB /* libAspects.a */; };
+		FAA52AA219190B70004681BB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAA52AA019190B70004681BB /* InfoPlist.strings */; };
+		FAA52AA419190B70004681BB /* AspectsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA52AA319190B70004681BB /* AspectsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAA52A9A19190B70004681BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAA52A7C19190B70004681BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAA52A8319190B70004681BB;
+			remoteInfo = Aspects;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FAA52A8219190B70004681BB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				FAA52A8D19190B70004681BB /* Aspects.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FAA52A8419190B70004681BB /* libAspects.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAspects.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA52A8719190B70004681BB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FAA52A8B19190B70004681BB /* Aspects-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Aspects-Prefix.pch"; sourceTree = "<group>"; };
+		FAA52A8C19190B70004681BB /* Aspects.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
+		FAA52A8E19190B70004681BB /* Aspects.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
+		FAA52A9419190B70004681BB /* AspectsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AspectsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA52A9519190B70004681BB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FAA52A9819190B70004681BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		FAA52A9F19190B70004681BB /* AspectsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AspectsTests-Info.plist"; sourceTree = "<group>"; };
+		FAA52AA119190B70004681BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FAA52AA319190B70004681BB /* AspectsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AspectsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAA52A8119190B70004681BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA52A8819190B70004681BB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA52A9119190B70004681BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA52A9619190B70004681BB /* XCTest.framework in Frameworks */,
+				FAA52A9C19190B70004681BB /* libAspects.a in Frameworks */,
+				FAA52A9919190B70004681BB /* UIKit.framework in Frameworks */,
+				FAA52A9719190B70004681BB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAA52A7B19190B70004681BB = {
+			isa = PBXGroup;
+			children = (
+				FAA52A8919190B70004681BB /* Aspects */,
+				FAA52A9D19190B70004681BB /* AspectsTests */,
+				FAA52A8619190B70004681BB /* Frameworks */,
+				FAA52A8519190B70004681BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAA52A8519190B70004681BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAA52A8419190B70004681BB /* libAspects.a */,
+				FAA52A9419190B70004681BB /* AspectsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAA52A8619190B70004681BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAA52A8719190B70004681BB /* Foundation.framework */,
+				FAA52A9519190B70004681BB /* XCTest.framework */,
+				FAA52A9819190B70004681BB /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAA52A8919190B70004681BB /* Aspects */ = {
+			isa = PBXGroup;
+			children = (
+				FAA52A8C19190B70004681BB /* Aspects.h */,
+				FAA52A8E19190B70004681BB /* Aspects.m */,
+				FAA52A8A19190B70004681BB /* Supporting Files */,
+			);
+			path = Aspects;
+			sourceTree = "<group>";
+		};
+		FAA52A8A19190B70004681BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAA52A8B19190B70004681BB /* Aspects-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAA52A9D19190B70004681BB /* AspectsTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAA52AA319190B70004681BB /* AspectsTests.m */,
+				FAA52A9E19190B70004681BB /* Supporting Files */,
+			);
+			path = AspectsTests;
+			sourceTree = "<group>";
+		};
+		FAA52A9E19190B70004681BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAA52A9F19190B70004681BB /* AspectsTests-Info.plist */,
+				FAA52AA019190B70004681BB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAA52A8319190B70004681BB /* Aspects */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA52AA719190B70004681BB /* Build configuration list for PBXNativeTarget "Aspects" */;
+			buildPhases = (
+				FAA52A8019190B70004681BB /* Sources */,
+				FAA52A8119190B70004681BB /* Frameworks */,
+				FAA52A8219190B70004681BB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aspects;
+			productName = Aspects;
+			productReference = FAA52A8419190B70004681BB /* libAspects.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FAA52A9319190B70004681BB /* AspectsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA52AAA19190B70004681BB /* Build configuration list for PBXNativeTarget "AspectsTests" */;
+			buildPhases = (
+				FAA52A9019190B70004681BB /* Sources */,
+				FAA52A9119190B70004681BB /* Frameworks */,
+				FAA52A9219190B70004681BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAA52A9B19190B70004681BB /* PBXTargetDependency */,
+			);
+			name = AspectsTests;
+			productName = AspectsTests;
+			productReference = FAA52A9419190B70004681BB /* AspectsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAA52A7C19190B70004681BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Alex Soto";
+			};
+			buildConfigurationList = FAA52A7F19190B70004681BB /* Build configuration list for PBXProject "Aspects" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FAA52A7B19190B70004681BB;
+			productRefGroup = FAA52A8519190B70004681BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAA52A8319190B70004681BB /* Aspects */,
+				FAA52A9319190B70004681BB /* AspectsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAA52A9219190B70004681BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA52AA219190B70004681BB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAA52A8019190B70004681BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA52A8F19190B70004681BB /* Aspects.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA52A9019190B70004681BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA52AA419190B70004681BB /* AspectsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAA52A9B19190B70004681BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAA52A8319190B70004681BB /* Aspects */;
+			targetProxy = FAA52A9A19190B70004681BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAA52AA019190B70004681BB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAA52AA119190B70004681BB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAA52AA519190B70004681BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FAA52AA619190B70004681BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAA52AA819190B70004681BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Aspects.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Aspects/Aspects-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FAA52AA919190B70004681BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Aspects.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Aspects/Aspects-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FAA52AAB19190B70004681BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Aspects/Aspects-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AspectsTests/AspectsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FAA52AAC19190B70004681BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Aspects/Aspects-Prefix.pch";
+				INFOPLIST_FILE = "AspectsTests/AspectsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAA52A7F19190B70004681BB /* Build configuration list for PBXProject "Aspects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA52AA519190B70004681BB /* Debug */,
+				FAA52AA619190B70004681BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA52AA719190B70004681BB /* Build configuration list for PBXNativeTarget "Aspects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA52AA819190B70004681BB /* Debug */,
+				FAA52AA919190B70004681BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAA52AAA19190B70004681BB /* Build configuration list for PBXNativeTarget "AspectsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA52AAB19190B70004681BB /* Debug */,
+				FAA52AAC19190B70004681BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAA52A7C19190B70004681BB /* Project object */;
+}
